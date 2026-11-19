@@ -160,4 +160,49 @@ const ICONS = {
     <rect x="68" y="38" width="9" height="12" rx="2" fill="#2b2f38"/>
     ${UP(84, 18, '#d0312d')}
   `, '#f1eaf9'),
+  // a judge's gavel coming down on a ballot box
+  gavel: S(`
+    <rect x="18" y="56" width="50" height="34" rx="3" fill="#2b2f38"/>
+    <rect x="30" y="54" width="26" height="5" rx="2" fill="#f4f5f8"/>
+    <rect x="34" y="40" width="18" height="16" fill="#f4f5f8" stroke="#2b2f38" stroke-width="1.5"/>
+    <path d="M37 46 L49 46 M37 50 L46 50" stroke="#2b2f38" stroke-width="2"/>
+    <g transform="rotate(-35 66 30)">
+      <rect x="50" y="20" width="32" height="16" rx="4" fill="#8a5a2b"/>
+      <rect x="63" y="36" width="6" height="34" rx="2" fill="#a8703a"/>
+    </g>
+    <path d="M14 92 L86 92" stroke="#8a5a2b" stroke-width="4" stroke-linecap="round"/>
+  `, '#e8f1f4'),
+  // a cyclone spiral beside a small ring atoll with a palm
+  cyclone: S(`
+    <circle cx="44" cy="44" r="30" fill="#b9c6d8"/>
+    <path d="M44 44 m-4 0 a4 4 0 1 1 8 0 M44 20 Q70 22 68 46 Q66 68 44 68 M44 68 Q18 66 20 44 Q22 22 44 20 M30 30 Q44 18 58 30 M58 58 Q44 70 30 58" stroke="#eef3f9" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <circle cx="44" cy="44" r="6" fill="#5b6b86"/>
+    <ellipse cx="76" cy="84" rx="18" ry="7" fill="none" stroke="#e8d18a" stroke-width="5"/>
+    <path d="M80 80 Q82 70 78 62" stroke="#7a5230" stroke-width="3" fill="none"/>
+    <path d="M78 62 q-10 -2 -14 4 M78 62 q8 -6 14 0 M78 62 q-2 -8 -10 -10" stroke="#3d8a2a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  `, '#dfe9f5'),
+  // a piggy bank with a belt pulled tight, coins
+  budget: S(`
+    <ellipse cx="48" cy="56" rx="30" ry="22" fill="#2f9e5b"/>
+    <circle cx="76" cy="52" r="9" fill="#2f9e5b"/>
+    <circle cx="79" cy="51" r="2" fill="#1b5e36"/>
+    <path d="M36 34 L42 26 L48 35" fill="#2f9e5b"/>
+    <rect x="28" y="74" width="7" height="12" fill="#2f9e5b"/><rect x="58" y="74" width="7" height="12" fill="#2f9e5b"/>
+    <rect x="40" y="32" width="14" height="4" rx="2" fill="#1b5e36"/>
+    <path d="M40 36 Q36 56 40 76 L50 76 Q46 56 50 36 Z" fill="#f2c230"/>
+    <rect x="40" y="52" width="10" height="9" rx="1" fill="none" stroke="#7a5a10" stroke-width="2"/>
+    <circle cx="16" cy="22" r="7" fill="#f2c230" stroke="#b58a12" stroke-width="2"/>
+    <circle cx="26" cy="14" r="5" fill="#f2c230" stroke="#b58a12" stroke-width="2"/>
+  `, '#eaf6ee'),
+  // protesters with a placard, a small fire behind them
+  protest: S(`
+    <path d="M70 60 Q62 44 72 34 Q72 44 78 42 Q76 30 86 24 Q84 40 92 50 Q94 62 82 66 Z" fill="#e8742a"/>
+    <path d="M78 64 Q74 54 80 48 Q82 56 86 54 Q88 62 84 66 Z" fill="#ffd75a"/>
+    <rect x="66" y="64" width="26" height="16" rx="3" fill="#4a5568"/>
+    <rect x="14" y="14" width="40" height="22" rx="2" fill="#fff" stroke="#2b2f38" stroke-width="2"/>
+    <path d="M20 22 L48 22 M20 29 L40 29" stroke="#c8282e" stroke-width="3"/>
+    <path d="M34 36 L34 50" stroke="#7a5230" stroke-width="3"/>
+    ${PERSON(26, 56, '#3d8a2a')}${PERSON(46, 60, '#c8282e')}
+    <path d="M8 86 L92 86" stroke="#8a8f99" stroke-width="4"/>
+  `, '#f6ece4'),
 };

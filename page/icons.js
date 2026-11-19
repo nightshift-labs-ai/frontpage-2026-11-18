@@ -174,12 +174,13 @@ const ICONS = {
   `, '#e8f1f4'),
   // a cyclone spiral beside a small ring atoll with a palm
   cyclone: S(`
-    <circle cx="44" cy="44" r="30" fill="#b9c6d8"/>
-    <path d="M44 44 m-4 0 a4 4 0 1 1 8 0 M44 20 Q70 22 68 46 Q66 68 44 68 M44 68 Q18 66 20 44 Q22 22 44 20 M30 30 Q44 18 58 30 M58 58 Q44 70 30 58" stroke="#eef3f9" stroke-width="5" fill="none" stroke-linecap="round"/>
-    <circle cx="44" cy="44" r="6" fill="#5b6b86"/>
-    <ellipse cx="76" cy="84" rx="18" ry="7" fill="none" stroke="#e8d18a" stroke-width="5"/>
-    <path d="M80 80 Q82 70 78 62" stroke="#7a5230" stroke-width="3" fill="none"/>
-    <path d="M78 62 q-10 -2 -14 4 M78 62 q8 -6 14 0 M78 62 q-2 -8 -10 -10" stroke="#3d8a2a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M42 30 Q40 8 70 8" stroke="#2a4a8a" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M42 58 Q44 80 14 80" stroke="#2a4a8a" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle cx="42" cy="44" r="17" fill="#2a4a8a"/>
+    <circle cx="42" cy="44" r="7" fill="#dfe9f5"/>
+    <ellipse cx="78" cy="86" rx="16" ry="6" fill="none" stroke="#e0bf5a" stroke-width="5"/>
+    <path d="M80 82 Q82 72 77 64" stroke="#7a5230" stroke-width="3" fill="none"/>
+    <path d="M77 64 q-10 -2 -14 4 M77 64 q8 -6 14 0 M77 64 q-2 -8 -10 -10" stroke="#3d8a2a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
   `, '#dfe9f5'),
   // a piggy bank with a belt pulled tight, coins
   budget: S(`

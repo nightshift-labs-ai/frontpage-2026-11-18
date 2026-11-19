@@ -131,6 +131,25 @@ const ICONS = {
     <path d="M6 52 Q18 64 30 52 Z" fill="#e8b931"/><path d="M70 46 Q82 58 94 46 Z" fill="#e8b931"/>
   `, '#fdf0e3'),
 
+  // a ring of stars around a stack of euro coins (EU money for Ukraine)
+  euaid: S(`
+    <circle cx="50" cy="50" r="40" fill="#1f4fa8"/>
+    ${Array.from({ length: 12 }, (_, i) => { const a = i * Math.PI / 6; return `<circle cx="${50 + 31 * Math.cos(a)}" cy="${50 + 31 * Math.sin(a)}" r="3.4" fill="#ffd75a"/>`; }).join('')}
+    <ellipse cx="50" cy="64" rx="16" ry="5" fill="#c9a13a"/><rect x="34" y="52" width="32" height="12" fill="#e8b931"/><ellipse cx="50" cy="52" rx="16" ry="5" fill="#f4d36b"/>
+    <ellipse cx="50" cy="44" rx="16" ry="5" fill="#c9a13a"/><rect x="34" y="34" width="32" height="10" fill="#e8b931"/><ellipse cx="50" cy="34" rx="16" ry="5" fill="#f4d36b"/>
+    <text x="50" y="62" font-family="Ubuntu Sans, DejaVu Sans" font-weight="800" font-size="11" fill="#6b4a0a" text-anchor="middle">€</text>
+  `, '#e8eef9'),
+
+  // a damaged building with smoke (strikes on a city)
+  strike: S(`
+    <path d="M58 30 q-6 -10 4 -16 q4 -8 14 -4 q10 -2 12 8 q8 4 2 12 z" fill="#8a8f98"/>
+    <path d="M18 88 L18 40 L40 40 L46 50 L52 44 L60 48 L60 88 Z" fill="#c9b9a0" stroke="#6b5a40" stroke-width="2"/>
+    <rect x="24" y="50" width="7" height="8" fill="#2b2f38"/><rect x="24" y="64" width="7" height="8" fill="#2b2f38"/><rect x="38" y="64" width="7" height="8" fill="#2b2f38"/><rect x="38" y="76" width="7" height="8" fill="#2b2f38"/>
+    <path d="M64 88 L64 56 L84 56 L84 88 Z" fill="#e0d6c4" stroke="#6b5a40" stroke-width="2"/>
+    <path d="M52 44 L58 34 L62 42" fill="#ff8a2a"/><circle cx="56" cy="40" r="4" fill="#ffcf3a"/>
+    <rect x="8" y="88" width="84" height="5" fill="#6b5a40"/>
+  `, '#f4ece2'),
+
   // a fuel pump with a rising price
   pump: S(`
     <rect x="14" y="22" width="36" height="64" rx="4" fill="#7a3db8"/>

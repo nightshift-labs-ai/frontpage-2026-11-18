@@ -31,7 +31,7 @@ const CARDS = [
     fact: 'Nearly all officials see more rises.' },
   { r: 'namer', f: 'BUSINESS · AI', icon: 'ipo',
     hl: 'Anthropic prices IPO at $83 a share',
-    fact: 'Above $70–78 range; trades 19 Nov.' },
+    fact: 'Above its $70–78 range.' },
   { r: 'europe', f: 'POLITICS · AID', icon: 'euaid',
     hl: 'EU proposes €45bn more for Ukraine',
     fact: 'For 2027; states must approve.' },
@@ -40,7 +40,7 @@ const CARDS = [
     fact: 'Erdogan’s rival; ban not yet final.' },
   { r: 'sasia', f: 'POLITICS · LABOUR', icon: 'protest',
     hl: 'Unrest spreads in Bangladesh',
-    fact: 'Fire at Yunus home; wage protesters clash with police.' },
+    fact: 'Fire at Yunus home; wage clashes.' },
   { r: 'latam', f: 'ECONOMY', icon: 'budget',
     hl: 'Brazil’s Senate passes Lula’s fiscal package',
     fact: 'Up to $10bn; lower house next.' },
@@ -66,8 +66,13 @@ const ALSO = [
   ]},
   { r: 'africa', items: [
     'Senegal: migrant boat wreck, 1+ dead',
+    'Sudan: Amnesty urges RSF drone probe',
+    'US Congress gives late Sadat gold medal',
     'Kenya: Ruto gives State of the Nation',
     'Sudan: medieval cathedral floor found',
+  ]},
+  { r: 'pacific', items: [
+    'NZ smoking rate falls below 6% (5.9%)',
   ]},
   { r: 'sasia', items: [
     'Pakistan tests Fatah-3 cruise missile',
@@ -77,24 +82,29 @@ const ALSO = [
   ]},
   { r: 'asia', items: [
     'Xi opens the APEC CEO Summit',
+    'Indonesia, China sign $71.8bn of deals',
+    'Kim visits navy school, no reply to Trump',
     'Seoul: mayor cleared in martial-law case',
     'Malaysia: leaked Najib minutes row',
     'England win ODI series in Australia',
   ]},
   { r: 'namer', items: [
     'Jeffries nominated for House Speaker',
+    'Carney meets Trump; no trade deal yet',
+    'FDA OKs first drug for neuro Gaucher',
     'Nvidia falls 2.9% despite record quarter',
     'Dow falls about 560 points (1.1%)',
     'Waller: bigger December move possible',
   ]},
   { r: 'latam', items: [
     'Hegseth makes surprise Venezuela trip',
-    'Haiti: Bukele’s forces hit gang chief',
+    'Haiti: strike on gang leader’s home',
     'Chile: Q3 output down 1.1% on a year',
     'Argentina: no quorum for Milei bills',
   ]},
   { r: 'europe', items: [
     'UK inflation rises to 3.6%',
+    'Germany: top court rejects BSW recount',
     'Romania: strongest quake since 2018',
     'Polish paper: Russian plot foiled',
     'Tennis: Alcaraz into ATP Finals semis',
@@ -106,4 +116,4 @@ const ALSO = [
   ]},
 ];
 
-const SOURCES = 'CNBC, Al Jazeera, Gulf News, Times of Israel, SCMP, Democracy Now, Kyiv Independent, OkayAfrica, Africanews (AP), Reuters, AP, Bloomberg, Yahoo Finance, CNN, Kitco, Forbes, ONS, The Climate Watch, NASA, EarthSky, ESPNcricinfo, Sky Sports, ATP Tour, Rockstar Games, PC Gamer, France 24, Dawn, Express Tribune, ANI, The Week, Bangladesh Pratidin, TBS News, 1News, RNZ, Korea Herald, Malaysiakini, The Star, Malay Mail, OnlineKhabar, Nepal News, Balkan Insight, The National, Washington Post, Rio Times, bne IntelliNews, allAfrica, Haitian Times, Infobae, MDZ';
+const SOURCES = 'CNBC, Al Jazeera, Gulf News, Times of Israel, SCMP, Democracy Now, Kyiv Independent, OkayAfrica, Africanews (AP), Reuters, AP, Bloomberg, Yahoo Finance, CNN, Kitco, Forbes, ONS, The Climate Watch, NASA, EarthSky, ESPNcricinfo, Sky Sports, ATP Tour, Rockstar Games, PC Gamer, France 24, Dawn, Express Tribune, ANI, The Week, Bangladesh Pratidin, TBS News, 1News, RNZ, Korea Herald, Malaysiakini, The Star, Malay Mail, OnlineKhabar, Nepal News, Balkan Insight, The National, Washington Post, Rio Times, bne IntelliNews, allAfrica, Haitian Times, Infobae, MDZ, ANTARA, NK News, SBS, Amnesty International, Sudan Tribune, UPI, C-SPAN, CBC, ZDF, taz, Pharmacy Times';

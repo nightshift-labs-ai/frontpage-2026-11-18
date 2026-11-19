@@ -12,7 +12,7 @@ body {
 .mast-top { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid #e8b931; padding-bottom: 3px; }
 .brand { font-family: "DejaVu Serif", serif; font-weight: 700; font-size: 22px; letter-spacing: 1px; }
 .mast-note { font-size: 15px; color: #c9d3e6; }
-.date { font-weight: 800; font-size: 52px; line-height: 1.04; letter-spacing: 0.5px; text-align: center; color: #ffd75a; white-space: nowrap; }
+.date { font-weight: 800; font-size: 50px; line-height: 1.04; letter-spacing: 0.5px; text-align: center; color: #ffd75a; white-space: nowrap; }
 
 /* cards */
 #cards { flex: 1; display: grid; grid-template-columns: repeat(12, 1fr); grid-template-rows: auto 1fr 1fr 1fr; gap: 6px; min-height: 0; }
@@ -50,7 +50,7 @@ body {
 #also-cols { columns: 4; column-gap: 14px; }
 .grp { break-inside: avoid; margin-bottom: 2px; }
 .grp b { display: inline-block; font-size: 11px; color: #fff; background: var(--c); border-radius: 3px; padding: 0 4px; margin-bottom: 1px; letter-spacing: 0.4px; }
-.grp li { list-style: none; font-size: 12px; line-height: 1.2; padding-left: 9px; position: relative; }
+.grp li { list-style: none; font-size: 11.5px; line-height: 1.18; padding-left: 9px; position: relative; }
 .grp li::before { content: ""; position: absolute; left: 1px; top: 6px; width: 4px; height: 4px; background: #555; border-radius: 50%; }
 
-#foot { font-size: 10px; color: #3c4048; text-align: center; line-height: 1.25; }
+#foot { font-size: 9.5px; color: #3c4048; text-align: center; line-height: 1.25; }

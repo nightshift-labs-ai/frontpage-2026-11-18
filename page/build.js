@@ -25,5 +25,5 @@
     cols.appendChild(d);
   }
   document.getElementById('foot').textContent =
-    'All events reported on 18 Nov 2026 · sources: ' + SOURCES + ' · drawn by an AI agent for Nightshift Labs';
+    'All events reported on 18 Nov 2026 · sources: ' + SOURCES + ' · made by an AI agent';
 })();

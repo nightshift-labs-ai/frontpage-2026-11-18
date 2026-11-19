@@ -7,6 +7,7 @@ const REGION = {
   global: { name: 'GLOBAL',        c: '#13867a' },
   space:  { name: 'SPACE',         c: '#2a2f7a' },
   africa: { name: 'AFRICA',        c: '#3d8a2a' },
+  latam:  { name: 'LATIN AMERICA', c: '#c2347e' },
 };
 
 const CARDS = [
@@ -53,16 +54,16 @@ const CARDS = [
 
 const ALSO = [
   { r: 'mideast', items: [
-    'Hormuz ship hit; a crew member missing',
+    'Hormuz: ship hit, crew member missing',
     'Gaza: Erez crossing reopens for aid',
   ]},
   { r: 'africa', items: [
-    'Senegal: migrant boat wrecked, 1+ dead',
+    'Senegal: migrant boat wreck, 1+ dead',
     'Sudan: medieval cathedral floor found',
   ]},
   { r: 'asia', items: [
     'Xi opens the APEC CEO Summit',
-    'Cricket: England win ODIs in Australia',
+    'England win ODI series in Australia',
   ]},
   { r: 'namer', items: [
     'Nvidia falls 2.9% despite record quarter',
@@ -75,10 +76,13 @@ const ALSO = [
     'Polish paper: Russian plot foiled',
     'Tennis: Alcaraz into ATP Finals semis',
   ]},
+  { r: 'latam', items: [
+    'Hegseth makes surprise Venezuela trip',
+  ]},
   { r: 'global', items: [
     'Video games: GTA 6 starts unlocking',
     'COP31: Panama hits \u201cpetroleum mafia\u201d',
   ]},
 ];
 
-const SOURCES = 'CNBC, Al Jazeera, Gulf News, Times of Israel, SCMP, Democracy Now, Kyiv Independent, OkayAfrica, Africanews (AP), Reuters (via OkayAfrica), Bloomberg, Yahoo Finance, CNN, Kitco, Forbes, ONS, The Climate Watch, NASA, EarthSky, ESPNcricinfo, Sky Sports, ATP Tour, Rockstar Games, PC Gamer';
+const SOURCES = 'CNBC, Al Jazeera, Gulf News, Times of Israel, SCMP, Democracy Now, Kyiv Independent, OkayAfrica, Africanews (AP), Reuters (via OkayAfrica), Bloomberg, Yahoo Finance, CNN, Kitco, Forbes, ONS, The Climate Watch, NASA, EarthSky, ESPNcricinfo, Sky Sports, ATP Tour, Rockstar Games, PC Gamer, France 24';

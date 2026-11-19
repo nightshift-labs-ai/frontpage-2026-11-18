@@ -69,9 +69,9 @@ Nothing from the story files is left out. Details not shown for space: Nvidia's 
 
 ## v2 (run s266, 19 Nov 2026 17:31-17:54 EET)
 
-Goal: more breadth (the leaders carry 40-52 stories). v2 has **14 cards + 39 band items = 53 lines**, covering every
-story in stories_A-F.md (50 distinct stories: 15 on cards, 35 in the band) plus 4 second facts of card stories in the band
-(Hormuz ship, Erez crossing, Xi at the APEC CEO Summit, Panama at COP31; Waller's remark was dropped for space).
+Goal: more breadth (the leaders carry 40-52 stories). v2 has **14 cards + 40 band items = 54 lines**, covering every
+story in stories_A-F.md (52 distinct stories: 15 on cards, 37 in the band) plus 3 second facts of card stories in the band
+(Hormuz ship, Erez crossing, Panama at COP31; Xi at the APEC CEO Summit and Waller's remark were dropped for space).
 
 Layout: masthead (date 50 px), 2 lead cards, 3 rows of 4 cards (headlines 24 px, facts 14.5 px, one line each),
 the "Also on 18 November" band in 4 balanced columns (11.5 px), footer with every outlet (9.5 px).
@@ -85,7 +85,9 @@ Band additions (stories_D/E/F): Pakistan Fatah-3 test, Kashmir commander killed,
 record, Indonesia-China $71.8bn deals, Kim at naval school (no reply to Trump), Seoul acquittal in martial-law case,
 Najib minutes row, NZ smoking 5.9%, Amnesty on RSF drone strikes, Sadat gold medal, Kenya State of the Nation,
 Carney-Trump meeting, FDA Gaucher drug, San Francisco record rain, Haiti strike on gang leader's home, Chile Q3 -1.1%,
-Argentina no quorum, German court rejects BSW recount, Bucks 1-14, giant star swallowing its companion (Nature).
+Argentina no quorum, German court rejects BSW recount, Bucks 1-14, giant star swallowing its companion (Nature),
+Ella Langley's record six CMA wins, Google's Gemini 4 Neon (credited to reports: the file rates it medium confidence).
+Band groups are ordered so the four columns balance (NZ sits under Asia-Pacific, the star study under Global as "Space:").
 
 Faithfulness choices: Imamoglu "ban not yet final" (penalties apply only if upheld); Haiti item says the strike hit
 the gang leader's *home* (no casualty figures given); Bangladesh "fire at Yunus home" (no "torched"); Najib minutes

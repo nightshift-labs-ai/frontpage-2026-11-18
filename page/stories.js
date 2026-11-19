@@ -64,30 +64,6 @@ const ALSO = [
     'Gaza: Erez crossing reopens for aid',
     'Knesset votes to undo court overhaul',
   ]},
-  { r: 'africa', items: [
-    'Senegal: migrant boat wreck, 1+ dead',
-    'Sudan: Amnesty urges RSF drone probe',
-    'US Congress gives late Sadat gold medal',
-    'Kenya: Ruto gives State of the Nation',
-    'Sudan: medieval cathedral floor found',
-  ]},
-  { r: 'pacific', items: [
-    'NZ smoking rate falls below 6% (5.9%)',
-  ]},
-  { r: 'sasia', items: [
-    'Pakistan tests Fatah-3 cruise missile',
-    'Kashmir: Lashkar commander killed',
-    'India OKs 615 MW more Nepal power',
-    'Litton Das: record 8 Test dismissals',
-  ]},
-  { r: 'asia', items: [
-    'Xi opens the APEC CEO Summit',
-    'Indonesia, China sign $71.8bn of deals',
-    'Kim visits navy school, no reply to Trump',
-    'Seoul: mayor cleared in martial-law case',
-    'Malaysia: leaked Najib minutes row',
-    'England win ODI series in Australia',
-  ]},
   { r: 'namer', items: [
     'Jeffries nominated for House Speaker',
     'Carney meets Trump; no trade deal yet',
@@ -96,6 +72,7 @@ const ALSO = [
     'Dow falls about 560 points (1.1%)',
     'NBA: Bucks lose 11th straight, now 1-14',
     'San Francisco: record rain floods streets',
+    'CMA Awards: Ella Langley wins record six',
   ]},
   { r: 'latam', items: [
     'France 24: Hegseth makes Venezuela trip',
@@ -110,14 +87,34 @@ const ALSO = [
     'Polish paper: Russian plot foiled',
     'Tennis: Alcaraz into ATP Finals semis',
   ]},
+  { r: 'africa', items: [
+    'Senegal: migrant boat wreck, 1+ dead',
+    'Sudan: Amnesty urges RSF drone probe',
+    'US Congress gives late Sadat gold medal',
+    'Kenya: Ruto gives State of the Nation',
+    'Sudan: medieval cathedral floor found',
+  ]},
   { r: 'global', items: [
     'Copper, gold and silver tumble',
     'Video games: GTA 6 starts unlocking',
     'COP31: Panama hits “petroleum mafia”',
+    'Reports: Google launches Gemini 4 Neon',
+    'Space: giant star appears to eat partner',
   ]},
-  { r: 'space', items: [
-    'Giant star appears to eat its companion',
+  { r: 'sasia', items: [
+    'Pakistan tests Fatah-3 cruise missile',
+    'Kashmir: Lashkar commander killed',
+    'India OKs 615 MW more Nepal power',
+    'Litton Das: record 8 Test dismissals',
+  ]},
+  { r: 'asia', items: [
+    'Indonesia, China sign $71.8bn of deals',
+    'Kim visits navy school, no reply to Trump',
+    'Seoul: mayor cleared in martial-law case',
+    'Malaysia: leaked Najib minutes row',
+    'England win ODI series in Australia',
+    'NZ smoking rate falls below 6% (5.9%)',
   ]},
 ];
 
-const SOURCES = 'CNBC, Al Jazeera, Gulf News, Times of Israel, SCMP, Democracy Now, Kyiv Independent, OkayAfrica, Africanews (AP), Reuters, AP, Bloomberg, Yahoo Finance, CNN, Kitco, Forbes, ONS, The Climate Watch, NASA, EarthSky, ESPNcricinfo, Sky Sports, ATP Tour, Rockstar Games, PC Gamer, France 24, Dawn, Express Tribune, ANI, The Week, Bangladesh Pratidin, TBS News, 1News, RNZ, Korea Herald, Malaysiakini, The Star, Malay Mail, OnlineKhabar, Nepal News, Balkan Insight, The National, Washington Post, Rio Times, bne IntelliNews, allAfrica, Haitian Times, Infobae, MDZ, ANTARA, NK News, SBS, Amnesty International, Sudan Tribune, UPI, C-SPAN, CBC, ZDF, taz, Pharmacy Times, NBC Bay Area, weather.com, ESPN, Space.com';
+const SOURCES = 'CNBC, Al Jazeera, Gulf News, Times of Israel, SCMP, Democracy Now, Kyiv Independent, OkayAfrica, Africanews (AP), Reuters, AP, Bloomberg, Yahoo Finance, CNN, Kitco, Forbes, ONS, The Climate Watch, NASA, EarthSky, ESPNcricinfo, Sky Sports, ATP Tour, Rockstar Games, PC Gamer, France 24, Dawn, Express Tribune, ANI, The Week, Bangladesh Pratidin, TBS News, 1News, RNZ, Korea Herald, Malaysiakini, The Star, Malay Mail, OnlineKhabar, Nepal News, Balkan Insight, The National, Washington Post, Rio Times, bne IntelliNews, allAfrica, Haitian Times, Infobae, MDZ, ANTARA, NK News, SBS, Amnesty International, Sudan Tribune, UPI, C-SPAN, CBC, ZDF, taz, Pharmacy Times, NBC Bay Area, weather.com, ESPN, Space.com, emergent.sh, Billboard, Variety, ABC News';

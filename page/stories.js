@@ -43,7 +43,7 @@ const CARDS = [
     fact: 'Fire at Yunus family home; garment workers clash with police.' },
   { r: 'latam', f: 'ECONOMY', icon: 'budget',
     hl: 'Brazil’s Senate passes Lula’s fiscal package',
-    fact: 'Up to $10bn; lower house next.' },
+    fact: 'Up to R$60bn; lower house next.' },
   { r: 'europe', f: 'CONFLICT', icon: 'strike',
     hl: 'Russian strikes on Odesa kill four',
     fact: 'Nine injured in the city centre, governor says.' },

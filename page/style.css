@@ -15,15 +15,15 @@ body {
 .date { font-weight: 800; font-size: 50px; line-height: 1.04; letter-spacing: 0.5px; text-align: center; color: #ffd75a; white-space: nowrap; }
 
 /* cards */
-#cards { flex: 1; display: grid; grid-template-columns: repeat(12, 1fr); grid-template-rows: auto 1fr 1fr 1fr; gap: 6px; min-height: 0; }
+#cards { flex: 1; display: grid; grid-template-columns: repeat(12, 1fr); grid-template-rows: auto 1fr 1fr 1fr; gap: 5px; min-height: 0; }
 .card { background: #fff; border-radius: 6px; border: 1px solid #d8d1c2; border-top: 6px solid var(--c); padding: 5px 9px 5px; display: flex; flex-direction: column; overflow: hidden; }
 .card.lead { grid-column: span 6; flex-direction: row; gap: 12px; }
-.card.std { grid-column: span 3; display: grid; grid-template-columns: 1fr 44px; grid-template-rows: auto auto 1fr; column-gap: 6px; }
+.card.std { grid-column: span 3; display: grid; grid-template-columns: 1fr 40px; grid-template-rows: auto auto 1fr; column-gap: 6px; }
 .card.std.wide { grid-column: span 4; grid-template-columns: 64px 1fr; grid-template-rows: auto auto 1fr; column-gap: 10px; }
 .card .ic { flex: none; }
 .card.lead .ic svg { width: 92px; height: 92px; }
 .card.std .ic { grid-row: 1; grid-column: 2; }
-.card.std .ic svg { width: 44px; height: 44px; }
+.card.std .ic svg { width: 40px; height: 40px; }
 .card.std .tags { grid-column: 1; grid-row: 1; flex-direction: column; align-items: flex-start; }
 .card.std .tags .tag { margin-bottom: 2px; }
 .card.std .hl { grid-column: 1 / 3; grid-row: 2; }

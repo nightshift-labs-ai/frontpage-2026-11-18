@@ -94,7 +94,7 @@ const ALSO = [
     'FDA OKs first drug for neuro Gaucher',
     'Nvidia falls 2.9% despite record quarter',
     'Dow falls about 560 points (1.1%)',
-    'Waller: bigger December move possible',
+    'NBA: Bucks lose 11th straight, now 1-14',
     'San Francisco: record rain floods streets',
   ]},
   { r: 'latam', items: [
@@ -115,6 +115,9 @@ const ALSO = [
     'Video games: GTA 6 starts unlocking',
     'COP31: Panama hits “petroleum mafia”',
   ]},
+  { r: 'space', items: [
+    'Giant star appears to eat its companion',
+  ]},
 ];
 
-const SOURCES = 'CNBC, Al Jazeera, Gulf News, Times of Israel, SCMP, Democracy Now, Kyiv Independent, OkayAfrica, Africanews (AP), Reuters, AP, Bloomberg, Yahoo Finance, CNN, Kitco, Forbes, ONS, The Climate Watch, NASA, EarthSky, ESPNcricinfo, Sky Sports, ATP Tour, Rockstar Games, PC Gamer, France 24, Dawn, Express Tribune, ANI, The Week, Bangladesh Pratidin, TBS News, 1News, RNZ, Korea Herald, Malaysiakini, The Star, Malay Mail, OnlineKhabar, Nepal News, Balkan Insight, The National, Washington Post, Rio Times, bne IntelliNews, allAfrica, Haitian Times, Infobae, MDZ, ANTARA, NK News, SBS, Amnesty International, Sudan Tribune, UPI, C-SPAN, CBC, ZDF, taz, Pharmacy Times, NBC Bay Area, weather.com';
+const SOURCES = 'CNBC, Al Jazeera, Gulf News, Times of Israel, SCMP, Democracy Now, Kyiv Independent, OkayAfrica, Africanews (AP), Reuters, AP, Bloomberg, Yahoo Finance, CNN, Kitco, Forbes, ONS, The Climate Watch, NASA, EarthSky, ESPNcricinfo, Sky Sports, ATP Tour, Rockstar Games, PC Gamer, France 24, Dawn, Express Tribune, ANI, The Week, Bangladesh Pratidin, TBS News, 1News, RNZ, Korea Herald, Malaysiakini, The Star, Malay Mail, OnlineKhabar, Nepal News, Balkan Insight, The National, Washington Post, Rio Times, bne IntelliNews, allAfrica, Haitian Times, Infobae, MDZ, ANTARA, NK News, SBS, Amnesty International, Sudan Tribune, UPI, C-SPAN, CBC, ZDF, taz, Pharmacy Times, NBC Bay Area, weather.com, ESPN, Space.com';

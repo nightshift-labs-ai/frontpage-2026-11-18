@@ -106,6 +106,31 @@ const ICONS = {
     <text x="70" y="84" font-family="Ubuntu Sans, DejaVu Sans" font-weight="800" font-size="11" fill="#ffd75a" text-anchor="middle">24 HRS</text>
   `, '#151a3d'),
 
+  // two helmets facing each other across a dotted border line
+  border: S(`
+    <path d="M50 8 L50 92" stroke="#c8282e" stroke-width="4" stroke-dasharray="7 5"/>
+    <path d="M8 62 Q8 38 28 38 Q44 38 44 58 L44 62 Z" fill="#5c6b47"/><rect x="6" y="60" width="40" height="6" rx="3" fill="#3f4a32"/>
+    <path d="M92 62 Q92 38 72 38 Q56 38 56 58 L56 62 Z" fill="#7a6a3a"/><rect x="54" y="60" width="40" height="6" rx="3" fill="#584b28"/>
+    <path d="M18 78 L36 78 M30 72 L37 78 L30 84" stroke="#2b2f38" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M82 78 L64 78 M70 72 L63 78 L70 84" stroke="#2b2f38" stroke-width="4" fill="none" stroke-linecap="round"/>
+  `, '#eef6e9'),
+
+  // a globe between an oil barrel and a solar panel (climate talks)
+  cop: S(`
+    <circle cx="50" cy="40" r="20" fill="#3a86c8"/><path d="M38 30 q8 -4 12 4 q-4 8 -12 4z M54 44 q8 -2 10 6 q-6 4 -10 -6z" fill="#4caf50"/>
+    <rect x="6" y="58" width="22" height="30" rx="3" fill="#2b2f38"/><rect x="6" y="66" width="22" height="3" fill="#6b717a"/><rect x="6" y="77" width="22" height="3" fill="#6b717a"/>
+    <path d="M70 66 L94 60 L94 82 L70 88 Z" fill="#1f5fbf" stroke="#bcd" stroke-width="1.5"/><path d="M82 63 L82 85 M70 77 L94 71" stroke="#bcd" stroke-width="1.5"/>
+    <path d="M32 74 L44 74 M68 74 L56 74" stroke="#d0312d" stroke-width="4" stroke-linecap="round"/>
+  `, '#e4f4f1'),
+
+  // scales of justice and a gavel (the Knesset and the judicial laws)
+  scales: S(`
+    <rect x="47" y="16" width="6" height="62" fill="#5b6475"/><rect x="32" y="78" width="36" height="7" rx="3" fill="#5b6475"/>
+    <path d="M18 28 L82 22" stroke="#5b6475" stroke-width="4" stroke-linecap="round"/><circle cx="50" cy="16" r="5" fill="#e8b931"/>
+    <path d="M18 28 L8 52 M18 28 L28 52 M82 22 L72 46 M82 22 L92 46" stroke="#9aa3b5" stroke-width="1.5"/>
+    <path d="M6 52 Q18 64 30 52 Z" fill="#e8b931"/><path d="M70 46 Q82 58 94 46 Z" fill="#e8b931"/>
+  `, '#fdf0e3'),
+
   // a fuel pump with a rising price
   pump: S(`
     <rect x="14" y="22" width="36" height="64" rx="4" fill="#7a3db8"/>

@@ -4,14 +4,14 @@
   for (const s of CARDS) {
     const reg = REGION[s.r];
     const el = document.createElement('article');
-    el.className = 'card ' + (s.lead ? 'lead' : 'std');
+    el.className = 'card ' + (s.lead ? 'lead' : 'std') + (s.wide ? ' wide' : '');
     el.style.setProperty('--c', reg.c);
     const tags = `<div class="tags"><span class="tag">${reg.name}</span><span class="tag f">${s.f}</span></div>`;
     const icon = `<div class="ic">${ICONS[s.icon]}</div>`;
     if (s.lead) {
       el.innerHTML = `${icon}<div class="lead-body">${tags}<div class="hl">${s.hl}</div><div class="fact">${s.fact}</div></div>`;
     } else {
-      el.innerHTML = `<div class="top">${icon}<div>${tags}</div></div><div class="hl">${s.hl}</div><div class="fact">${s.fact}</div>`;
+      el.innerHTML = `${icon}${tags}<div class="hl">${s.hl}</div><div class="fact">${s.fact}</div>`;
     }
     cards.appendChild(el);
   }

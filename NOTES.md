@@ -70,7 +70,7 @@ Nothing from the story files is left out. Details not shown for space: Nvidia's 
 ## v2 (run s266, 19 Nov 2026 17:31-17:54 EET)
 
 Goal: more breadth (the leaders carry 40-52 stories). v2 has **14 cards + 38 band items = 52 lines**, covering every
-story in stories_A-F.md (39 distinct stories as of the last re-read) plus 5 second facts of card stories.
+story in stories_A-F.md (48 distinct stories: 15 on cards, 33 in the band) plus 5 second facts of card stories in the band.
 
 Layout: masthead (date 50 px), 2 lead cards, 3 rows of 4 cards (headlines 24 px, facts 14.5 px, one line each),
 the "Also on 18 November" band in 4 balanced columns (11.5 px), footer with every outlet (9.5 px).

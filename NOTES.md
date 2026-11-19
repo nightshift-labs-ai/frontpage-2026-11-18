@@ -66,3 +66,32 @@ Cards cover 6 regions (Asia-Pacific, Middle East, Africa, North America, Europe,
 
 Nothing from the story files is left out. Details not shown for space: Nvidia's revenue figures, the IPO raise size
 (unconfirmed in the sources), copper's $/tonne price, gold's price level, the cricket and tennis scores.
+
+## v2 (run s266, 19 Nov 2026 17:31-17:54 EET)
+
+Goal: more breadth (the leaders carry 40-52 stories). v2 has **14 cards + 38 band items = 52 lines**, covering every
+story in stories_A-F.md (39 distinct stories as of the last re-read) plus 5 second facts of card stories.
+
+Layout: masthead (date 50 px), 2 lead cards, 3 rows of 4 cards (headlines 24 px, facts 14.5 px, one line each),
+the "Also on 18 November" band in 4 balanced columns (11.5 px), footer with every outlet (9.5 px).
+
+New cards (one per region that had none): Turkey (Imamoglu political ban, w4), South Asia (Bangladesh unrest:
+the Yunus home fire + the garment-wage clashes, both w3, combined in one card), Latin America (Brazil Senate fiscal
+package, w3), Pacific (Category 5 Cyclone Xavier, w3). Moved from card to band to make room: Knesset, Jeffries,
+metals sell-off (all w3; their regions/fields stay on the cards through other stories).
+
+Band additions (stories_D/E/F): Pakistan Fatah-3 test, Kashmir commander killed, India-Nepal 615 MW, Litton Das
+record, Indonesia-China $71.8bn deals, Kim at naval school (no reply to Trump), Seoul acquittal in martial-law case,
+Najib minutes row, NZ smoking 5.9%, Amnesty on RSF drone strikes, Sadat gold medal, Kenya State of the Nation,
+Carney-Trump meeting, FDA Gaucher drug, San Francisco record rain, Haiti strike on gang leader's home, Chile Q3 -1.1%,
+Argentina no quorum, German court rejects BSW recount.
+
+Faithfulness choices: Imamoglu "ban not yet final" (penalties apply only if upheld); Haiti item says the strike hit
+the gang leader's *home* (no casualty figures given); Bangladesh "fire at Yunus home" (no "torched"); Najib minutes
+"leaked" (no official confirmation of declassification); Indonesia deals kept despite the APEC overlap (separate fact);
+Romania still without a magnitude; Ethiopia-Eritrea still credited to Reuters.
+
+Checks (v2): render reports no overflowing card/band/footer; looked at entry.png at full size and out/preview300.png
+(date and card headlines read at 300 px); entry.png 1024 x 1024 PNG, about 308 KB; `MAKEFUN_OUTPUT_DIR=out/o node
+main.ts` output byte-identical (cmp); kit check: 4 passed, only transcripts_present fails (no bundle passed; the operator
+bundles and submits).

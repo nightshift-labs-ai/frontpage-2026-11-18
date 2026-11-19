@@ -95,6 +95,10 @@ the gang leader's *home* (no casualty figures given); Bangladesh "fire at Yunus 
 Romania still without a magnitude; Hegseth's Venezuela trip now credited to France 24 (single source); Ethiopia-Eritrea still credited to Reuters.
 
 Checks (v2): render reports no overflowing card/band/footer; looked at entry.png at full size and out/preview300.png
-(date and card headlines read at 300 px); entry.png 1024 x 1024 PNG, about 308 KB; `MAKEFUN_OUTPUT_DIR=out/o node
+(date and card headlines read at 300 px); entry.png 1024 x 1024 PNG, about 322 KB; `MAKEFUN_OUTPUT_DIR=out/o node
 main.ts` output byte-identical (cmp); kit check: 4 passed, only transcripts_present fails (no bundle passed; the operator
 bundles and submits).
+
+Final re-read of all six story files at 17:46 EET (after the researchers' 17:45 finish): 52 headlines, all 52 on the page;
+no file changed after 17:39 EET. Final checks rerun at 17:46: main.ts output identical, kit check unchanged (4 passed,
+only transcripts_present failing without a bundle).

@@ -98,7 +98,7 @@ const ALSO = [
     'San Francisco: record rain floods streets',
   ]},
   { r: 'latam', items: [
-    'Hegseth makes surprise Venezuela trip',
+    'France 24: Hegseth makes Venezuela trip',
     'Haiti: strike on gang leader’s home',
     'Chile: Q3 output down 1.1% on a year',
     'Argentina: no quorum for Milei bills',

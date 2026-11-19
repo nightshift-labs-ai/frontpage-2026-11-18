@@ -90,7 +90,7 @@ Argentina no quorum, German court rejects BSW recount, Bucks 1-14, giant star sw
 Faithfulness choices: Imamoglu "ban not yet final" (penalties apply only if upheld); Haiti item says the strike hit
 the gang leader's *home* (no casualty figures given); Bangladesh "fire at Yunus home" (no "torched"); Najib minutes
 "leaked" (no official confirmation of declassification); Indonesia deals kept despite the APEC overlap (separate fact);
-Romania still without a magnitude; Ethiopia-Eritrea still credited to Reuters.
+Romania still without a magnitude; Hegseth's Venezuela trip now credited to France 24 (single source); Ethiopia-Eritrea still credited to Reuters.
 
 Checks (v2): render reports no overflowing card/band/footer; looked at entry.png at full size and out/preview300.png
 (date and card headlines read at 300 px); entry.png 1024 x 1024 PNG, about 308 KB; `MAKEFUN_OUTPUT_DIR=out/o node
